@@ -1,0 +1,134 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "9b3241bd-b81c-4788-825b-3dc7d667de63": {
+        "id": "9b3241bd-b81c-4788-825b-3dc7d667de63",
+        "parent": null,
+        "name": "getProduct.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "getProduct.js",
+        "cursor": {
+          "lineNumber": 76,
+          "column": 29
+        },
+        "config": {
+          "runtime": "nodejs12.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "getProduct"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK4ba15eb9ba264f49b6daa998a623ba3c",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1602174041433
+      }
+    },
+    "openFiles": [
+      "9b3241bd-b81c-4788-825b-3dc7d667de63"
+    ],
+    "currentFileId": "9b3241bd-b81c-4788-825b-3dc7d667de63",
+    "resources": {
+      "alexaSK4ba15eb9ba264f49b6daa998a623ba3c": {
+        "name": "alexaSK4ba15eb9ba264f49b6daa998a623ba3c",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.4ba15eb9-ba26-4f49-b6da-a998a623ba3c",
+          "applicationID": ""
+        }
+      },
+      "ddbproducts": {
+        "name": "ddbproducts",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 0,
+          "table": {
+            "arn": "",
+            "name": "products",
+            "partitionKey": "books",
+            "partitionKeyType": "S",
+            "hasSortKey": false,
+            "sortKey": "",
+            "sortKeyType": "S",
+            "payPerRequest": true,
+            "mode": 0
+          },
+          "isGlobalEditMode": true,
+          "parameters": {
+            "Key": {},
+            "Item": {},
+            "ExpressionAttributeValues": {},
+            "IndexName": ""
+          },
+          "triggerParams": {},
+          "validator": {
+            "validatableFields": {},
+            "validity": true
+          },
+          "valid": true
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "ask-sdk": {
+          "name": "ask-sdk",
+          "language": "nodejs",
+          "version": "2.7.0",
+          "dev": false,
+          "notRemovable": false
+        },
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.3.1",
+    "projectName": "getProduct",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1602174483295
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "getproduct",
+      "url": "https://github.com/fire001/getproduct"
+    }
+  }
+}
